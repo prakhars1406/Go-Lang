@@ -53,7 +53,7 @@ func newDeckFromFile(name string) deck {
 	s := strings.Split(string(bs), ",")
 	return deck(s)
 }
-
+///new commit
 func (d deck) shuffle() {
 	source := rand.NewSource(time.Now().UnixNano())
 	r := rand.New(source)
