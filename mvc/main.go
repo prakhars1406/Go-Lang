@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/My-Tutorial/mvc/app"
+	"github.com/Go-Lang/mvc/app"
 )
 
 func main() {
